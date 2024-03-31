@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import _default from '../../themes/default'
+import _default from '@mui/material/styles/identifier'
 
 export const SocialMediaIcons = styled.div`
   display: flex;
