@@ -223,13 +223,10 @@ export const projects = [
     tags: [
       'React',
       'Supabase',
-      '@tanstack/react-query',
-      'date-fns',
+      'react-query',
       'react-router-dom',
       'recharts',
       'styled-components',
-      'react-hot-toast',
-      'react-icons',
       'react-hook-form',
     ],
     category: 'full stack',
@@ -258,6 +255,19 @@ export const projects = [
     category: 'react app',
     github: 'https://github.com/zeyucui1/zeyu-portfolio',
     webapp: 'https://zeyu-portfolio.vercel.app',
+  },
+  {
+    id: 3,
+    title: 'PizzaHouse',
+    date: 'Aug 2023 - Sep 2023',
+    description:
+      'PizzaHouse is a React-based practice project designed to simulate the entire process of ordering pizza online. As an exercise focused on honing skills in state management with Redux and responsive design with Tailwind CSS, this application encompasses essential features needed for a functional pizza ordering system.',
+    image:
+      'https://github.com/zeyucui1/image-storage/blob/main/project/pizza_house.png?raw=true',
+    tags: ['React', 'Redux', 'Tailwind CSS', 'HTML5', 'CSS3', 'React Router'],
+    category: 'react app',
+    github: 'https://github.com/zeyucui1/pizza-house',
+    webapp: 'https://pizza-house-ochre.vercel.app',
   },
 ]
 

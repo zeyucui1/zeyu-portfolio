@@ -58,7 +58,6 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 - **Web Vitals:** A library for measuring performance metrics that matter for user experience in web applications.
 - **Git/GitHub:** For version control and source code management, facilitating collaboration and code sharing.
 
-
 ## 🛠️ Installation
 
 1. Clone the repository:
