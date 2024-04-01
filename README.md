@@ -1,8 +1,8 @@
 # My Portfolio
 
-Welcome to my portfolio! This is where I showcase my skills, projects, and experiences as a web developer, reflecting my proficiency in **JavaScript**, **ReactJs**, and **Web Development** technologies.
+Welcome to my personal website! Here, I share my journey as a web developer, showcasing the skills, projects, and experiences I've gathered along the way. My work is a reflection of my deep engagement with **JavaScript**, **ReactJs**, and the broader world of **Web Development** technologies.
 
-The purpose of this portfolio is not only to display my work but also to demonstrate my ongoing journey in learning and mastering web development, embracing the philosophy of **"Learning by Doing"**.
+This site serves more than just a display of my work; it's a testament to my belief in the power of **"Learning by Doing"**. Through this portal, I aim to not only present my achievements but also illustrate my continuous path towards mastering the intricacies of web development.
 
 ## 🌐 Weblink
 
@@ -21,6 +21,7 @@ Live Website: [Visit Here](https://zeyu-portfolio.vercel.app/)
   - [📖 Introduction](#-introduction)
   - [✨ Features](#-features)
   - [💻 Technologies Used](#-technologies-used)
+  - [💻 Technologies Used](#-technologies-used-1)
   - [🛠️ Installation](#️-installation)
   - [📋 Usage](#-usage)
   - [🤝 Contributing](#-contributing)
@@ -41,32 +42,39 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 
 ## 💻 Technologies Used
 
-- **React.js:** A JavaScript library for building user interfaces.
-- **HTML5 & CSS3:** The standard markup and styling languages for creating web pages.
-- **JavaScript:** The scripting language for adding interactive elements to web applications.
-- **Styled-Components:** Utilized for styling within the app.
-- **Git/GitHub:** For version control and source code management.
+## 💻 Technologies Used
+
+- **React.js:** A JavaScript library for building user interfaces, leveraging the latest features of React 18 for efficient updates and rendering.
+- **HTML5 & CSS3:** The standard markup and styling languages for building responsive and visually appealing web pages.
+- **JavaScript:** The core programming language used to create dynamic and interactive web applications.
+- **Styled-Components:** A library for React and React Native that allows you to use component-level styles in your application.
+- **Material UI (MUI):** A popular React UI framework for faster and easier web development with pre-designed components.
+- **Emotion:** A performant and flexible CSS-in-JS library designed for building styled components and for styling React apps.
+- **React Router DOM:** A standard library for routing in React, used for navigating between pages within the application.
+- **React Icons:** Provides access to a wide range of icons for use in React applications, enhancing UI design.
+- **EmailJS:** A service that allows sending emails directly from client-side JavaScript without needing any server code.
+- **React Scroll:** A library for smooth scrolling and scroll-based animations in React applications.
+- **Typewriter Effect:** A utility for creating typing animations, adding visual interest to text on web pages.
+- **Web Vitals:** A library for measuring performance metrics that matter for user experience in web applications.
+- **Git/GitHub:** For version control and source code management, facilitating collaboration and code sharing.
+
 
 ## 🛠️ Installation
 
 1. Clone the repository:
-git clone https://github.com/zeyucui1/zeyu-cui-portfolio.git
-
+   git clone https://github.com/zeyucui1/zeyu-cui-portfolio.git
 
 2. Navigate to the project directory:
-cd zeyu-cui-portfolio
-
+   cd zeyu-cui-portfolio
 
 3. Install dependencies:
-npm install
+   npm install
 
 4. Start the development server:
-npm start
+   npm start
 
 5. Open in browser:
-http://localhost:3000
-
-
+   http://localhost:3000
 
 ## 📋 Usage
 
