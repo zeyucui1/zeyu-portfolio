@@ -269,6 +269,19 @@ export const projects = [
     github: 'https://github.com/zeyucui1/pizza-house',
     webapp: 'https://pizza-house-ochre.vercel.app',
   },
+  {
+    id: 4,
+    title: 'WorldWise',
+    date: 'Aug 2023 - Sep 2023',
+    description:
+      "WorldWise is a user-friendly travel tracking application designed for wanderlust enthusiasts. This application offers a way to catalog your travels by saving the places you've visited and the places you dream to explore. It combines sleek design with practical functionality, including notes addition, a visual map of your travels, and more!",
+    image:
+      'https://github.com/zeyucui1/image-storage/blob/main/project/worldwise.png?raw=true',
+    tags: ['React', 'React Router', 'React Leaflet', 'CSS Modules'],
+    category: 'react app',
+    github: 'https://github.com/zeyucui1/worldwise',
+    webapp: 'https://worldwise-amber-eight.vercel.app',
+  },
 ]
 
 // export const TimeLineData = [
