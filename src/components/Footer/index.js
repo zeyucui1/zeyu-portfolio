@@ -106,7 +106,7 @@ function Footer() {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2023 Zeyu Cui. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Zeyu Cui. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   )

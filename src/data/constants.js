@@ -236,6 +236,30 @@ export const projects = [
     github: 'https://github.com/zeyucui1/the-wild-oasis',
     webapp: 'https://the-wild-oasis-hotel-eta.vercel.app',
   },
+  {
+    id: 2,
+    title: 'zeyu-portfolio',
+    date: 'Sep 2023 - Current',
+    description:
+      'The Wild Oasis Hotel Management Application revolutionizes hotel operations with its intuitive design for managing sales, cabins, bookings, and user data, all in one place. Seamlessly blending advanced JavaScript and ReactJS, it offers a user-friendly platform for hotel staff to enhance efficiency and customer service. Demo Access: Admin Email: zeyu@example.com, Password: 11111111. Perfect for managing daily hotel tasks and improving overall hospitality experiences.',
+    image:
+      'https://github.com/zeyucui1/image-storage/blob/main/project/the-wild-oasis.png?raw=true',
+    tags: [
+      'React',
+      'Supabase',
+      '@tanstack/react-query',
+      'date-fns',
+      'react-router-dom',
+      'recharts',
+      'styled-components',
+      'react-hot-toast',
+      'react-icons',
+      'react-hook-form',
+    ],
+    category: 'full stack',
+    github: 'https://github.com/zeyucui1/the-wild-oasis',
+    webapp: 'https://the-wild-oasis-hotel-eta.vercel.app',
+  },
 ]
 
 // export const TimeLineData = [
