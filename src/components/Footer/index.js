@@ -84,6 +84,7 @@ const Copyright = styled.p`
 `
 
 function Footer() {
+  const currentyear = new Date().getFullYear()
   return (
     <FooterContainer>
       <FooterWrapper>
@@ -106,7 +107,9 @@ function Footer() {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Zeyu Cui. All rights reserved.</Copyright>
+        <Copyright>
+          &copy; {currentyear} Zeyu Cui. All rights reserved.
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   )
