@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 import { skills } from '../../data/constants'
 
 const Container = styled.div`
@@ -56,7 +57,7 @@ const SkillsContainer = styled.div`
   justify-content: center;
 `
 
-const Skill = styled.div`
+const Skill = styled(motion.div)`
   width: 100%;
   max-width: 500px;
   background: ${({ theme }) => theme.card};
@@ -90,7 +91,7 @@ const SkillList = styled.div`
   margin-bottom: 20px;
 `
 
-const SkillItem = styled.div`
+const SkillItem = styled(motion.div)`
   font-size: 16px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
@@ -126,12 +127,35 @@ const Skills = () => {
           past 2 years.
         </Desc>
         <SkillsContainer>
-          {skills.map((skill) => (
-            <Skill key={skill.title}>
+          {skills.map((skill, skillIndex) => (
+            <Skill
+              key={skill.title}
+              initial={{ y: 50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: skillIndex * 0.2 }}
+              whileHover={{
+                scale: 1.05,
+                boxShadow: 'rgba(23, 92, 230, 0.25) 0px 8px 32px',
+              }}
+            >
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item) => (
-                  <SkillItem>
+                {skill.skills.map((item, itemIndex) => (
+                  <SkillItem
+                    key={item.name}
+                    initial={{ scale: 1 }}
+                    animate={{
+                      scale: [1, 1.1, 1],
+                      y: [0, -10, 0],
+                      x: [0, 10, 0, -10, 0],
+                    }}
+                    transition={{
+                      duration: 4,
+                      repeat: Infinity,
+                      repeatType: 'mirror',
+                      delay: itemIndex * 0.2,
+                    }}
+                  >
                     <SkillImage src={item.image} />
                     {item.name}
                   </SkillItem>

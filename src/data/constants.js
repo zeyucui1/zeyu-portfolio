@@ -251,6 +251,7 @@ export const projects = [
       'Git',
       'GitHub',
       'Material UI',
+      'Framer Motion'
     ],
     category: 'react app',
     github: 'https://github.com/zeyucui1/zeyu-portfolio',
