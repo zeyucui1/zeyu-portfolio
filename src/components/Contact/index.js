@@ -166,10 +166,10 @@ const Contact = () => {
     e.preventDefault()
     emailjs
       .sendForm(
-        'service_tox7kqs',
-        'template_nv7k7mj',
+        'service_4acjce9',
+        'template_cao47q2',
         form.current,
-        'SybVGsYS52j2TfLbi'
+        'yzJxMlaUAeq1Rdctk'
       )
       .then(
         (result) => {
@@ -204,8 +204,8 @@ const Contact = () => {
               Email Me 🚀
             </MarqueeTitle>
           </MarqueeWrapper>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Your Email" name="user_email" />
+          <ContactInput placeholder="Your Name" name="user_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
