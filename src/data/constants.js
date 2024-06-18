@@ -58,6 +58,11 @@ export const skills = [
         image:
           'https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_1080,q_100,w_1080/v1/gcs/platform-data-dsc/events/Tailwind_CSS_Logo.svg_GkNDLAs.png',
       },
+      {
+        name: 'Bootstrap',
+        image:
+          'https://img.icons8.com/?size=100&id=EzPCiQUqWWEa&format=png&color=000000',
+      },
     ],
   },
   {
@@ -132,9 +137,9 @@ export const skills = [
           'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png',
       },
       {
-        name: 'Netlify',
+        name: 'Vercel',
         image:
-          'https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png',
+          'https://w7.pngwing.com/pngs/436/888/png-transparent-vercel-hd-logo.png',
       },
       {
         name: 'VS Code',
@@ -153,6 +158,11 @@ export const skills = [
       {
         name: 'Figma',
         image: 'https://icon.icepanel.io/Technology/svg/Figma.svg',
+      },
+      {
+        name: 'Labrika',
+        image:
+          'https://appsumo2-cdn.appsumo.com/media/users/avatars/logo_color300.png',
       },
     ],
   },
@@ -251,7 +261,7 @@ export const projects = [
       'Git',
       'GitHub',
       'Material UI',
-      'Framer Motion'
+      'Framer Motion',
     ],
     category: 'react app',
     github: 'https://github.com/zeyucui1/zeyu-portfolio',
@@ -282,6 +292,19 @@ export const projects = [
     category: 'react app',
     github: 'https://github.com/zeyucui1/worldwise',
     webapp: 'https://worldwise-amber-eight.vercel.app',
+  },
+  {
+    id: 5,
+    title: 'Easy Rent',
+    date: 'April 2024 - May 2024',
+    description:
+      'Easy Rent is a school assignment project that provides a streamlined online car renting experience for potential users. This dynamic website features rich interactive functionalities such as browsing cars by type or brand, searching cars using keywords, checking availability, making rental requests, and confirming or canceling orders. Utilizing AJAX and JSON for data handling and built with HTML, CSS, JavaScript, and PHP, this project demonstrates the ability to manage user sessions, store data in JSON files, and interact with MySQL databases. Perfect for learning practical website design and development techniques.',
+    image:
+      'https://github.com/zeyucui1/image-storage/blob/main/project/easyrent_home.png?raw=true',
+    tags: ['HTML', 'CSS', 'JavaScript', 'AJAX', 'JSON', 'PHP', 'MySQL'],
+    category: 'full stack',
+    github: 'https://github.com/zeyucui1/easyRent',
+    webapp: '',
   },
 ]
 

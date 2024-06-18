@@ -146,7 +146,7 @@ const MemberName = styled.div`
 
 const ButtonGroup = styled.div`
   display: flex;
-  justify-content: flex-end;
+  justify-content: ${(props) => (props.center ? 'center' : 'flex-end')};
   margin: 12px 0px;
   gap: 12px;
 `
@@ -166,7 +166,7 @@ const Button = styled.a`
       background-color: ${theme.bgLight};
       color: ${theme.text_secondary};
       &:hover {
-          background-color: ${({ theme }) => theme.bg + 99};
+          background-color: ${theme.bg + 99};
       }
   `}
   cursor: pointer;
@@ -262,12 +262,14 @@ const index = ({ openModal, setOpenModal }) => {
                   </Members>
                 </>
               )}
-              <ButtonGroup>
+              <ButtonGroup center={!project?.webapp}>
+                {project?.webapp && (
+                  <Button href={project?.webapp} target="new">
+                    View Live App
+                  </Button>
+                )}
                 <Button dull href={project?.github} target="new">
                   View Code
-                </Button>
-                <Button href={project?.webapp} target="new">
-                  View Live App
                 </Button>
               </ButtonGroup>
             </Wrapper>
