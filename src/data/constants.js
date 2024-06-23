@@ -301,7 +301,7 @@ export const projects = [
     description:
       'E-commerce Proshop is a comprehensive e-commerce MERN STACK application designed to sell electronics. Inspired by websites like JB-Hifi, it showcases various products, offering features such as secure account creation, order tracking, and product reviews. It also includes admin functionalities for product management and user control. Demo Access: User Email: test@email.com, Password: 123456; Admin Email: admin@email.com, Password: 123456. The project aims to deliver a seamless shopping experience with modern web technologies.',
     image:
-      'https://github.com/zeyucui1/image-storage/blob/main/project/proshop.png',
+      'https://github.com/zeyucui1/image-storage/blob/main/project/proshop.png?raw=true',
     tags: [
       'React',
       'Redux',
