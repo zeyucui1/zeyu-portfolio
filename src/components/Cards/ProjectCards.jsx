@@ -38,8 +38,8 @@ const Tags = styled(motion.div)`
 const Tag = styled(motion.span)`
   font-size: 12px;
   font-weight: 400;
-  color: ${({ theme }) => theme.primary};
-  background-color: ${({ theme }) => theme.primary + 15};
+  color: ${({ theme }) => theme.text_skill};
+  background-color: ${({ theme }) => theme.text_skill + 15};
   padding: 2px 8px;
   border-radius: 10px;
 `
