@@ -293,8 +293,31 @@ export const projects = [
     github: 'https://github.com/zeyucui1/worldwise',
     webapp: 'https://worldwise-amber-eight.vercel.app',
   },
+
   {
     id: 5,
+    title: 'e-commerce-proshop',
+    date: 'April 2024 - June 2024',
+    description:
+      'E-commerce Proshop is a comprehensive e-commerce MERN STACK application designed to sell electronics. Inspired by websites like JB-Hifi, it showcases various products, offering features such as secure account creation, order tracking, and product reviews. It also includes admin functionalities for product management and user control. Demo Access: User Email: test@email.com, Password: 123456; Admin Email: admin@email.com, Password: 123456. The project aims to deliver a seamless shopping experience with modern web technologies.',
+    image:
+      'https://github.com/zeyucui1/image-storage/blob/main/project/proshop.png',
+    tags: [
+      'React',
+      'Redux',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'JWT',
+      'PayPal API',
+      'Bootstrap',
+    ],
+    category: 'full stack',
+    github: 'https://github.com/zeyucui1/proshop',
+    webapp: 'https://proshop-bu4u.onrender.com',
+  },
+  {
+    id: 6,
     title: 'Easy Rent',
     date: 'April 2024 - May 2024',
     description:
