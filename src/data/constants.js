@@ -171,12 +171,44 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRLwfs76_tc7JKuTYDu65fdB6mlLNcaDWyQ&s',
+    role: 'Web developer Intern',
+    company: 'Evaheld UTS startup, Ultimo,Sydney',
+    date: 'April 2024 - July 2024',
+    desc: [
+      'Worked as a Web Developer Intern at Evaheld in Ultimo, Sydney from April 2024 to July 2024. Built advanced care plan section and partnership page using React, Next.js, and TailwindCSS. Refactored legacy forms with React Hook Form, ensuring data integrity with TypeScript and Zod. Implemented a 10-chapter advanced care plan form with pagination and PDF export. Improved site traffic by 120% by resolving SEO issues and optimizing content. Enhanced mobile performance, reducing page load times by 15%. Collaborated in an Agile team, managing tasks with Nifty and participating in daily stand-ups.',
+    ],
+    skills: [
+      'ReactJS',
+      'NextJS',
+      'TypeScript',
+      'Tailwind CSS',
+      'MongoDB',
+      'Figma',
+      'SEO Optimization',
+      'Speed Optimization',
+      'Git',
+      'Agile',
+      'Responsive Web Design',
+      'Nifty',
+    ],
+    doc: [
+      'https://github.com/zeyucui1/image-storage/blob/main/Evaheld/acp.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Evaheld/partnership.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Evaheld/seo_optimization.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Evaheld/signature.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Evaheld/written_content_optimization.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Evaheld/logo.png?raw=true',
+    ],
+  },
+  {
+    id: 1,
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRckTSTrpZM-J0EGBu_MvdLJdv9fFOqDIIlnw&usqp=CAU',
     role: 'Front End Developer (School volunteer)',
     company: 'University of Tasmania, Australia',
     date: 'Feb 2023 - Nov 2023',
     desc: [
-      'I led the creation of a Home & AI Preprocess Data page & Homepage, leveraging the Ant Design UI Framework and React.JS to facilitate dynamic data display and user interaction. My responsibilities extended to database design, where I crafted the Entity-Relationship Diagram (ERD) and brought it to life using MySQL, ensuring robust data management. I also employed Figma for intuitive UI/UX designs and Tailwind CSS to guarantee web page responsiveness on various devices. In collaboration with the front-end team, I orchestrated weekly discussions to delineate tasks and played a pivotal role in troubleshooting, all to refine front-end functionality and elevate the user experience.',
+      'Led the creation of a AI Preprocess Data page & Homepage, leveraging the Ant Design UI Framework and React.JS to facilitate dynamic data display and user interaction. My responsibilities extended to database design, where I crafted the Entity-Relationship Diagram (ERD) and brought it to life using MySQL, ensuring robust data management. I also employed Figma for intuitive UI/UX designs and Styled-Components to guarantee web page responsiveness on various devices. Utilized React-Query to fetch and render backend data, adding interactive features such as chart data display and manipulation, reducing data processing time by 30%. Prepared user manual and interface design documentation, creating detailed user stories to explain the usage of each button, the purpose of each section, and overall navigation of the site, improving developer onboarding time by 25%. Collaborated with the ICT team using Trello in an Agile development environment, managing tasks, prioritizing backlog, and ensuring timely feature delivery. Orchestrated weekly discussions with the front-end team to delineate tasks and played a pivotal role in troubleshooting, all to refine front-end functionality and elevate the user experience.',
     ],
     skills: [
       'ReactJS',
@@ -192,9 +224,10 @@ export const experiences = [
       'Trello',
     ],
     doc: [
-      'https://github.com/zeyucui1/image-storage/blob/main/Qatar/qatar_home.png?raw=true',
-      'https://github.com/zeyucui1/image-storage/blob/main/Qatar/Qatar_AI.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Qatar/home.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Qatar/AI_Training.png?raw=true',
       'https://github.com/zeyucui1/image-storage/blob/main/Qatar/Database.png?raw=true',
+      'https://github.com/zeyucui1/image-storage/blob/main/Qatar/user_manual.png?raw=true',
     ],
   },
 ]

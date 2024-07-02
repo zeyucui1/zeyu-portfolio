@@ -84,6 +84,7 @@ const Image = styled.img`
   background-color: #000;
   border-radius: 10px;
   margin-top: 4px;
+  object-fit: cover;
   @media only screen and (max-width: 768px) {
     height: 40px;
   }
