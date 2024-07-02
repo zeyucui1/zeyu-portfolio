@@ -3,9 +3,21 @@ import styled from 'styled-components'
 
 const DocumentsContainer = styled.div`
   display: flex;
-  gap: 20px; // 可调整间隔
-  margin-top: 10px; // 如有需要可添加顶部间距
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 10px;
+
+  @media only screen and (max-width: 768px) {
+    gap: 10px;
+    justify-content: flex-start;
+
+    & > a {
+      flex: 0 0 calc(33.3333% - 10px);
+      max-width: calc(33.3333% - 10px);
+    }
+  }
 `
+
 const Document = styled.img`
   display: none;
   height: 70px;
@@ -165,7 +177,7 @@ const ExperienceCard = ({ experience }) => {
               <b>Skills:</b>
               <ItemWrapper>
                 {experience?.skills?.map((skill, index) => (
-                  <Skill>• {skill}</Skill>
+                  <Skill key={index}>• {skill}</Skill>
                 ))}
               </ItemWrapper>
             </Skills>
