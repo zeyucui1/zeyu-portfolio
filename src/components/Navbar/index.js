@@ -106,17 +106,28 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           animate={{ x: 0 }}
           transition={{ type: 'spring', stiffness: 120 }}
         >
-          {['About', 'Skills', 'Experience', 'Projects', 'Education'].map(
-            (item) => (
-              <motion.div
-                key={item}
-                whileHover={hoverAnimation}
-                style={{ display: 'inline-block' }}
-              >
+          {[
+            'About',
+            'Skills',
+            'Experience',
+            'Projects',
+            'Education',
+            'My Blog',
+          ].map((item) => (
+            <motion.div
+              key={item}
+              whileHover={hoverAnimation}
+              style={{ display: 'inline-block', whiteSpace: 'nowrap' }}
+            >
+              {item === 'My Blog' ? (
+                <NavLink href="https://zeyu-blog.vercel.app" target="_blank">
+                  {item}
+                </NavLink>
+              ) : (
                 <NavLink href={`#${item.toLowerCase()}`}>{item}</NavLink>
-              </motion.div>
-            )
-          )}
+              )}
+            </motion.div>
+          ))}
         </NavItems>
         <ButtonContainer
           as={motion.div}
@@ -139,13 +150,30 @@ const Navbar = ({ darkMode, setDarkMode }) => {
             animate={{ x: 0 }}
             transition={{ type: 'spring', stiffness: 300 }}
           >
-            {['About', 'Skills', 'Experience', 'Projects', 'Education'].map(
-              (item) => (
-                <motion.div
-                  key={item}
-                  whileHover={hoverAnimation}
-                  style={{ display: 'block' }}
-                >
+            {[
+              'About',
+              'Skills',
+              'Experience',
+              'Projects',
+              'Education',
+              'My Blog',
+            ].map((item) => (
+              <motion.div
+                key={item}
+                whileHover={hoverAnimation}
+                style={{ display: 'block' }}
+              >
+                {item === 'My Blog' ? (
+                  <MobileLink
+                    href="https://zeyu-blog.vercel.app"
+                    target="_blank"
+                    onClick={() => {
+                      setIsOpen(!isOpen)
+                    }}
+                  >
+                    {item}
+                  </MobileLink>
+                ) : (
                   <MobileLink
                     href={`#${item.toLowerCase()}`}
                     onClick={() => {
@@ -154,9 +182,9 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                   >
                     {item}
                   </MobileLink>
-                </motion.div>
-              )
-            )}
+                )}
+              </motion.div>
+            ))}
             <GitHubButton
               style={{
                 padding: '10px 16px',
