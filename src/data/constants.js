@@ -2,7 +2,7 @@ export const Bio = {
   name: 'Zeyu Cui',
   roles: ['Full Stack Developer', 'Web Developer', 'Programmer'],
   description:
-    "I am an enthusiastic IT master's student at UTS, specializing in the MERN stack. Driven by a thirst for new challenges and a commitment to lifelong learning, I excel in harnessing my passion for technology to deliver exceptional outcomes. My positive outlook and dedication to excellence fuel my desire to contribute meaningfully and achieve remarkable success in the tech world.",
+    'I am a recent graduate with a Master’s degree in Information Technology from UTS, specializing in the MERN stack. Eager to embark on my professional journey, I am seeking opportunities as a Web Developer or Software Engineer. Driven by a passion for technology and a commitment to lifelong learning, I excel in applying my skills to create exceptional outcomes. My positive mindset and dedication to excellence motivate me to contribute meaningfully to innovative projects and achieve success in the tech industry.',
   github: 'https://github.com/zeyucui1',
   resume:
     'https://drive.google.com/file/d/1-nAxL51itDnjK8htJWgOcuRzw8GIDsfz/view?usp=drive_link',
