@@ -2,10 +2,10 @@ export const Bio = {
   name: 'Zeyu Cui',
   roles: ['Full Stack Developer', 'Web Developer', 'Programmer'],
   description:
-    'I am a recent graduate with a Master’s degree in Information Technology from UTS, specializing in the MERN stack. Eager to embark on my professional journey, I am seeking opportunities as a Web Developer or Software Engineer. Driven by a passion for technology and a commitment to lifelong learning, I excel in applying my skills to create exceptional outcomes. My positive mindset and dedication to excellence motivate me to contribute meaningfully to innovative projects and achieve success in the tech industry.',
+    'I’m a recent Master’s graduate in Information Technology from UTS, specializing in the MERN stack. Passionate about technology and lifelong learning, I’m eager to contribute as a Web Developer or Software Engineer. My skills in React, Node.js, and building innovative web solutions drive me to deliver impactful outcomes in the tech industry.',
   github: 'https://github.com/zeyucui1',
   resume:
-    'https://drive.google.com/file/d/1-nAxL51itDnjK8htJWgOcuRzw8GIDsfz/view?usp=drive_link',
+    'https://drive.google.com/file/d/1GMwQkXLq0OFFdtW6hdTMvz04xXwAY5Qx/view?usp=sharing',
   linkedin: 'https://www.linkedin.com/in/zeyucui/',
   facebook: 'https://www.facebook.com/zeyu.cui.946',
 }
@@ -238,8 +238,8 @@ export const education = [
     img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNL0v1T3PaZPJewp2-fCSSB8wXF3N-Pq4vRsp8wuA2&s',
     school: 'University of Technology Sydney, AU',
     date: ' Feb 2022 - Nov 2024',
-    grade: '6.44 / 7 GPA',
-    desc: "I'm a final year master's student in Information Technology at university of technology sydney, I have completed 3 semesters and have a GPA of 6.44. I have taken courses in frontend development, fundamental of software engineering, databases design, computer networks, UX/UI design, .NET fundamental, iOS development, and soft skills like system design and project management.",
+    grade: '6.56 / 7 GPA',
+    desc: "Receng graduated with high distinction (WAM 85.1/100, GPA 6.44/7) in a Master’s in Information Technology from the University of Technology, Sydney. I have developed a solid foundation through coursework in frontend development, software engineering fundamentals, database design, computer networks, UX/UI design, .NET fundamentals, iOS development, and system design and project management, showcasing both strong academic performance and practical expertise.",
     degree:
       'Master of Information Technology - MIT, Software Development Major',
   },
