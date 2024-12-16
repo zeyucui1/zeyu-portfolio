@@ -239,7 +239,7 @@ export const education = [
     school: 'University of Technology Sydney, AU',
     date: ' Feb 2022 - Nov 2024',
     grade: '6.56 / 7 GPA',
-    desc: "Receng graduated with high distinction (WAM 85.1/100, GPA 6.44/7) in a Master’s in Information Technology from the University of Technology, Sydney. I have developed a solid foundation through coursework in frontend development, software engineering fundamentals, database design, computer networks, UX/UI design, .NET fundamentals, iOS development, and system design and project management, showcasing both strong academic performance and practical expertise.",
+    desc: "Receng graduated with high distinction (WAM 85.1/100, GPA 6.56/7) in a Master’s in Information Technology from the University of Technology, Sydney. I have developed a solid foundation through coursework in frontend development, software engineering fundamentals, database design, computer networks, UX/UI design, .NET fundamentals, iOS development, and system design and project management, showcasing both strong academic performance and practical expertise.",
     degree:
       'Master of Information Technology - MIT, Software Development Major',
   },
